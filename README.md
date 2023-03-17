@@ -1,6 +1,7 @@
 # K9 (AI Face Recognisation)
 
 We are presenting a facial recognition algorithm and API (Application Programming Interface) which will integrate live databases and Social Media Platforms to detect the face of a missing person by scanning through the databases as well as internet/social media platforms.
+One of the main benefits of using AI face detection mechanisms for searching missing people is its speed and accuracy. AI algorithms can quickly scan large datasets of images and videos, identify faces, and match them against known databases of missing persons. This can help law enforcement agencies and other organizations to identify potential leads and locate missing individuals more efficiently.
 
 
 ![Logo](file:///Users/shyamalnarang/Downloads/k9_final-removebg-preview.png)
@@ -15,25 +16,42 @@ We are presenting a facial recognition algorithm and API (Application Programmin
 
 - The system detects the faces using YOLO (CNN).
 
-- Detected faces are compared using face_recogntion library.
+- Detected faces are compared using face_recogntion library. Deep learning algorithms use neural networks with multiple layers to learn complex patterns and features in images. It has shown impressive results in face detection tasks .
 
-- If similarity is found, it extracts the username, location, time/date, tagged people, etc. from social media and live camera feeds.
+- If similarity is found, it extracts the username, location, time/date, etc. from social media and live camera feeds.
 
-- Alerts the authorities concerned via mail (smtp lib) or a popup message.
+- Alerts the authority concerned via mail (smtp lib) or a popup message.
 
 - Predicted route map is generated.
 
-## What challenges did you face and how did you overcome them?
+- Our app uses complex algorithms to analyze facial features, such as the distance between eyes, nose shape, and jawline to identify and recognize individuals. It works with a high accuracy, even in challenging lighting conditions, and can match images quickly, making it an efficient tool for many applications.
 
+
+## Tech Stack used
+
+- YOLO (You Only Look Once) : It is a state-of-the-art object detection algorithm that uses a Convolutional Neural Network (CNN) for real-time object detection.
+
+ - Face_recognition :This library can detect faces in an image, and return the coordinates of the bounding boxes around each detected face.
+
+- Tkinter : It is a standard Python library that provides a GUI (Graphical User Interface) toolkit for creating desktop applications with Python.
+
+- PyAutoGUI : It provides cross-platform support for controlling the mouse, keyboard, and screen of a computer to automate tasks that involve GUI interactions.
+
+- PIL (Python Imaging Library) : It provides tools for working with images in tkinter GUI applications.
+
+- Mysql.connector : It allows you to connect and interact with MySQL databases.
+
+- csv : It is a library that provides functionality for working with comma-separated value (CSV) files.
+
+- BeautifulSoup : It is a popular Python library used for web scraping and parsing HTML and XML documents. 
+
+## What challenges did you face and how did you overcome them?
 - Image quality: The quality of the images used for facial detection can significantly impact the accuracy of the algorithm. In many cases, images of missing persons were of low-quality or distorted, which made it difficult for the software to identify a match.
 
 - Legal and ethical considerations: The use of facial recognition technology is subject to legal and ethical considerations, such as compliance with data protection laws and the potential for misuse. We had to consider these issues when creating an AI face detection software for finding missing persons.
 
 - Privacy concerns: The use of facial recognition technology raises concerns about privacy, surveillance, and the potential for misuse. We designed the software to protect the privacy and security of individuals and have maximum transparency possible.
 
-- 
-
-!-- What did you learn while building this project? -->
 ## This technology can be used by
  
  Security and law enforcement agencies can use this technology :
@@ -50,23 +68,6 @@ We are presenting a facial recognition algorithm and API (Application Programmin
 
 
 -  To search for individuals in large databases of images, such as social media profiles or security camera footage, and quickly identify matches.
-## Technologies used
-
-- YOLO (You Only Look Once) : It is a state-of-the-art object detection algorithm that uses a Convolutional Neural Network (CNN) for real-time object detection.
-
- - Face_recognition :This library can detect faces in an image, and return the coordinates of the bounding boxes around each detected face.
-
-- Tkinter : It is a standard Python library that provides a GUI (Graphical User Interface) toolkit for creating desktop applications with Python.
-
-- PyAutoGUI : It provides cross-platform support for controlling the mouse, keyboard, and screen of a computer to automate tasks that involve GUI interactions.
-
-- PIL (Python Imaging Library) : It provides tools for working with images in tkinter GUI applications.
-
-- Mysql.connector : It allows you to connect and interact with MySQL databases.
-
-- csv : It is a library that provides functionality for working with comma-separated value (CSV) files.
-
-- 
 ## This Technology can be used By
 
 
@@ -87,109 +88,32 @@ We are presenting a facial recognition algorithm and API (Application Programmin
 
 
 
-## API Reference
-
-#### Get all items
-
-http
-  GET /api/items
+## How to run this project on a local device 
 
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | *Required*. Your API key |
 
-#### Get item
-
-http
-  GET /api/items/${id}
-
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | *Required*. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
-
-## Appendix
-
-Any additional information goes here
-
-
-## Authors
-
-- [@octokatherine](https://www.github.com/octokatherine)
-
-
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-
-
-## Demo
-
-Insert gif or link to demo
-
-
+<!-- 
 ## Deployment
 
 To deploy this project run
 
 bash
   npm run deploy
+ -->
 
 
-
-## Installation
+<!-- ## Installation
 
 Install my-project with npm
 
 bash
   npm install my-project
-  cd my-project
+  cd my-project -->
 
     
- ##What challenges did you face and how did you overcome them?
-
-
-
-## Screenshots
+## Screenshots and videoe
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
-
-## Running Tests
-
-To run tests, run the following command
-
-bash
-  npm run test
-
 
 
 ## Usage/Examples
@@ -203,88 +127,9 @@ function App() {
 
 
 
-## Problems faced 
-
-
-## Features
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+<!--  
 
 
 ## Optimizations
 
 What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
-
-
-## Run Locally
-
-Clone the project
-
-bash
-  git clone https://link-to-project
-
-
-Go to the project directory
-
-bash
-  cd my-project
-
-
-Install dependencies
-
-bash
-  npm install
-
-
-Start the server
-
-bash
-  npm run start
-
-
-
-## Support
-
-For support, email fake@fake.com or join our Slack channel.
-
-
-## Tech Stack
-
-*Client:* React, Redux, TailwindCSS
-
-*Server:* Node, Express
-
-
-## 🛠 Skills
-Javascript, HTML, CSS...
-
-
-## Related
-
-Here are some related projects
-
-[Awesome README](https://github.com/matiassingers/awesome-readme)
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
